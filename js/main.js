@@ -22,8 +22,25 @@ window.addEventListener('scroll', () => {
 		var element = document.getElementById("cursor");
     	element.classList.remove("cursorchange");
 	}
-	if (scrollTop == 300) {
-		
+	if (300 <= scrollTop) {
+		var element = document.getElementById("Title");
+    	element.classList.add("opacityAdd");	
+    	element.classList.add("positionadd");	
+	}
+	if (550 <= scrollTop) {
+		var element = document.getElementById("boxes1");
+    	element.classList.add("positionadd");	
+    	element.classList.add("opacityAdd");		
+	}
+	if (1150 <= scrollTop) {
+		var element = document.getElementById("boxes2");
+    	element.classList.add("positionadd");	
+    	element.classList.add("opacityAdd");		
+	}
+	if (1750 <= scrollTop) {
+		var element = document.getElementById("boxes3");
+    	element.classList.add("positionadd");	
+    	element.classList.add("opacityAdd");		
 	}
 	console.log(scrollTop);
 

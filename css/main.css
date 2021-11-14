@@ -400,6 +400,29 @@ margin-left:-100%;
     font-weight: 700;
 }
 
+.opacityAdd {
+	opacity: 1 !important;
+}
+
+#boxes1 {
+	opacity: 0;
+	transform: translate(0, 100px); !important;	
+	transition: opacity .6s cubic-bezier(.16,1.08,.38,.98), transform .6s cubic-bezier(.16,1.08,.38,.98);
+}
+#boxes2 {
+	opacity: 0;
+	transform: translate(0, 100px); !important;	
+	transition: opacity .6s cubic-bezier(.16,1.08,.38,.98), transform .6s cubic-bezier(.16,1.08,.38,.98);
+}
+#boxes3 {
+	opacity: 0;
+	transform: translate(0, 100px); !important;	
+	transition: opacity .6s cubic-bezier(.16,1.08,.38,.98), transform .6s cubic-bezier(.16,1.08,.38,.98);
+}
+
+.positionadd {
+	transform: translate(0, 0) !important;	
+}
 
 .title2 {
 	font-size: 150px;
@@ -409,6 +432,9 @@ margin-left:-100%;
 	margin-top: -270px;
 	display: flex;
 	justify-content: center;
+	opacity: 0;
+	transform: translate(0, 100px); !important;	
+	transition: opacity .6s cubic-bezier(.16,1.08,.38,.98), transform .6s cubic-bezier(.16,1.08,.38,.98);
 }
 
 .chaussures{
