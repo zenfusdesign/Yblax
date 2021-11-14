@@ -1,0 +1,14 @@
+@font-face {
+ font-family: "Recoleta";
+ src: url("font/RecoletaAlt-SemiBold.woff2") format("woff2"),
+        url("font/RecoletaAlt-SemiBold.woff") format("woff");
+}
+
+:root {
+	--softwht: #fdfbf5;
+	--softblk: #191919;
+	--color: #bf2020;
+	--Recoleta:  "Recoleta", serif;
+	--Opensns: "Open Sans", sans-serif;
+	--DharmaE: dharma-gothic-e, sans-serif;
+}
